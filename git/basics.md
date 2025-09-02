@@ -1,10 +1,10 @@
-# 🌐 Git Basics / Основы Git
+# 🌐 Git Basics
 
-Практическое руководство по работе с Git — системой контроля версий, которую используют разработчики по всему миру.
+A practical guide to using Git — a version control system used by developers worldwide.
 
 ---
 
-## 🧰 Installation / Установка
+## 🧰 Installation
 
 ### 🐧 Linux (Debian/Ubuntu):
 
@@ -19,8 +19,7 @@ sudo apt install git
 brew install git
 ```
 
-
-### ✅ Check installation / Проверка установки:
+### ✅ Check installation:
 
 ```bash
 git --version
@@ -28,44 +27,44 @@ git --version
 
 ---
 
-## 🔑 Key Git Commands / Основные команды Git
+## 🔑 Key Git Commands
 
-| Command                        | Description (EN)                                  | Описание (RU)                               |
-|-------------------------------|---------------------------------------------------|---------------------------------------------|
-| `git init`                    | Initialize a new repository                       | Инициализировать новый репозиторий          |
-| `git clone <url>`             | Clone an existing repository                      | Клонировать репозиторий                     |
-| `git status`                  | Show changes and tracked files                    | Показать статус файлов                      |
-| `git add <file>`              | Stage a file for commit                          | Добавить файл к коммиту                     |
-| `git commit -m "msg"`         | Save changes with a message                      | Сохранить изменения с сообщением            |
-| `git push`                    | Push changes to remote repo                      | Отправить изменения на сервер               |
-| `git pull`                    | Get latest changes from remote                   | Получить и слить изменения                  |
-| `git log`                     | Show commit history                              | Показать историю коммитов                   |
-| `git diff`                    | Show file differences                            | Показать отличия в файлах                   |
-
----
-
-## 🌿 Branching / Работа с ветками
-
-| Command                           | Description (EN)                    | Описание (RU)                             |
-|----------------------------------|-------------------------------------|-------------------------------------------|
-| `git branch`                     | List branches                       | Показать список веток                     |
-| `git branch <name>`              | Create a new branch                 | Создать новую ветку                       |
-| `git checkout <branch>`          | Switch to a branch                  | Переключиться на ветку                    |
-| `git checkout -b <branch>`       | Create and switch to a branch       | Создать и переключиться на ветку         |
-| `git merge <branch>`            | Merge a branch into current one     | Слить ветку в текущую                     |
-| `git branch -d <branch>`         | Delete a branch                     | Удалить ветку                             |
+| Command                        | Description                                  |
+|--------------------------------|----------------------------------------------|
+| `git init`                     | Initialize a new repository                  |
+| `git clone <url>`              | Clone an existing repository                 |
+| `git status`                   | Show changes and tracked files               |
+| `git add <file>`               | Stage a file for commit                      |
+| `git commit -m "msg"`          | Save changes with a message                  |
+| `git push`                     | Push changes to remote repo                  |
+| `git pull`                     | Get latest changes from remote               |
+| `git log`                      | Show commit history                          |
+| `git diff`                     | Show file differences                        |
 
 ---
 
-## ❌ Undoing Changes / Отмена изменений
+## 🌿 Branching
 
-| Command                              | Description (EN)                                  | Описание (RU)                               |
-|-------------------------------------|---------------------------------------------------|---------------------------------------------|
-| `git checkout -- <file>`           | Discard local changes                             | Отменить изменения в файле                  |
-| `git restore <file>`               | Restore a file to last commit                     | Восстановить файл                          |
-| `git reset HEAD <file>`            | Unstage a file                                    | Убрать файл из индекса                     |
-| `git revert <commit>`              | Create a commit that undoes a previous commit     | Создать коммит, отменяющий предыдущий       |
-| `git reset --hard <commit>`        | Reset to a specific commit (dangerous)            | Жёсткий откат до определённого коммита      |
+| Command                           | Description                                 |
+|-----------------------------------|---------------------------------------------|
+| `git branch`                      | List branches                               |
+| `git branch <name>`               | Create a new branch                         |
+| `git checkout <branch>`           | Switch to a branch                          |
+| `git checkout -b <branch>`        | Create and switch to a branch               |
+| `git merge <branch>`              | Merge a branch into the current one         |
+| `git branch -d <branch>`          | Delete a branch                             |
+
+---
+
+## ❌ Undoing Changes
+
+| Command                              | Description                                  |
+|--------------------------------------|----------------------------------------------|
+| `git checkout -- <file>`             | Discard local changes                        |
+| `git restore <file>`                 | Restore a file to the last commit            |
+| `git reset HEAD <file>`              | Unstage a file                               |
+| `git revert <commit>`                | Create a commit that undoes a previous commit|
+| `git reset --hard <commit>`          | Reset to a specific commit (dangerous)       |
 
 ---
 
@@ -73,10 +72,9 @@ git --version
 
 ### What is `.gitignore`?
 
-Files listed in `.gitignore` are not tracked by Git.  
-Файлы, указанные в `.gitignore`, игнорируются Git и не попадают в репозиторий.
+Files listed in `.gitignore` are not tracked by Git.
 
-### Example contents / Пример содержимого:
+### Example contents:
 
 ```
 node_modules/
@@ -101,8 +99,7 @@ git push       # Push if everything is OK
 
 ### 🔁 Fork
 
-A **fork** is a copy of a repository that you manage. You can propose changes without affecting the original.  
-**Fork** — это копия чужого репозитория, в которую вы можете вносить изменения, не затрагивая оригинал.
+A **fork** is a copy of a repository that you manage. You can propose changes without affecting the original.
 
 ```bash
 # Add original repo as upstream
@@ -117,8 +114,7 @@ git merge upstream/main
 
 ### 🔃 Pull Request
 
-A **Pull Request** is a way to propose changes to the original repository.  
-**Pull Request** — это запрос на внесение изменений в оригинальный проект.
+A **Pull Request** is a way to propose changes to the original repository.
 
 1. Create a new branch:
 
@@ -138,7 +134,7 @@ git push origin feature/your-feature
 
 ---
 
-## 💡 Tips / Полезные советы
+## 💡 Tips
 
 - Work in branches, not directly in `main`.
 - Write clear commit messages.

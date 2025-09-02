@@ -1,3 +1,7 @@
+# Working with `requests`
+
+Examples of using the `requests` library in Python.
+
 # 📚 Python Requests Library - Cheatsheet
 
 ## 🔹 Installation

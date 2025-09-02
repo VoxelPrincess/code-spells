@@ -1,4 +1,6 @@
-# 📝 Nano
+# Nano Editor
+
+Nano is a simple and user-friendly text editor for Linux.
 
 ## 🔹 1. Definition  
 **Nano** is a simple, user-friendly command-line text editor designed for ease of use. It’s often the default editor in many Linux distributions.

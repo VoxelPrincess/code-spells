@@ -1,4 +1,6 @@
-# 📝 Neovim
+# Neovim Editor
+
+Neovim is a modernized version of Vim with additional features.
 
 ## 🔹 1. Definition  
 **Neovim** is a modern fork of Vim that focuses on extensibility and usability. It supports asynchronous plugins and Lua-based configuration.

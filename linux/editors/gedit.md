@@ -1,4 +1,4 @@
-# 📝 Gedit
+# Gedit Editor
 
 ## 🔹 1. Definition  
 **Gedit** is the official text editor of the GNOME desktop environment. It's a simple and powerful GUI editor.

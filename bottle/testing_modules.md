@@ -1,4 +1,6 @@
-# 🧪 Testing a Python Module by Importing Functions
+# Testing Imported Functions in Bottle
+
+This guide explains how to test imported functions in Bottle applications.
 
 ## 1. Conditions to Allow Testing
 

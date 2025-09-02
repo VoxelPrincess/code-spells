@@ -1,11 +1,10 @@
-# 🐍 Python Basics / Основы Python
+# Python Basics
 
-Практическое руководство по основам языка программирования Python.
+Basic concepts and examples for Python programming.
 
 ---
 
-## 📥 Installation / Установка
-
+## 📥 Installation
 
 ### Linux (Debian/Ubuntu):
 ```bash
@@ -20,20 +19,20 @@ brew install python
 
 ---
 
-## 🧠 Key Concepts / Ключевые понятия
+## 🧠 Key Concepts
 
-- **Variable** — a container for storing data / переменная — контейнер для хранения данных.
-- **Function** — reusable block of code / функция — многократно используемый блок кода.
-- **List** — ordered, mutable collection / список — упорядоченная изменяемая коллекция.
-- **Tuple** — ordered, immutable collection / кортеж — упорядоченная неизменяемая коллекция.
-- **Dictionary** — key-value pairs / словарь — пары ключ-значение.
-- **Loop** — repeat a block of code / цикл — повторение блока кода.
-- **Condition** — branching logic (if/else) / условие — логика ветвления.
-- **Module** — file containing Python definitions / модуль — файл с определениями на Python.
+- **Variable** — a container for storing data.
+- **Function** — reusable block of code.
+- **List** — ordered, mutable collection.
+- **Tuple** — ordered, immutable collection.
+- **Dictionary** — key-value pairs.
+- **Loop** — repeat a block of code.
+- **Condition** — branching logic (if/else).
+- **Module** — file containing Python definitions.
 
 ---
 
-## ✍️ Syntax Examples / Примеры синтаксиса
+## ✍️ Syntax Examples
 
 ### Hello World:
 ```python
@@ -83,7 +82,7 @@ for color in colors:
 
 ---
 
-## 📚 Further Topics / Дополнительные темы
+## 📚 Further Topics
 
 - Working with files (`open`, `read`, `write`)
 - Exception handling (`try`, `except`)
@@ -93,11 +92,11 @@ for color in colors:
 
 ---
 
-## ✅ Practice Tip / Советы по практике
+## ✅ Practice Tip
 
-- Practice short scripts daily
-- Use Python Tutor (pythontutor.com) to visualize code
-- Try small challenges on sites like LeetCode, HackerRank, or Replit
+- Practice short scripts daily.
+- Use Python Tutor (pythontutor.com) to visualize code.
+- Try small challenges on sites like LeetCode, HackerRank, or Replit.
 
 ---
 

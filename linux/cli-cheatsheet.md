@@ -1,4 +1,6 @@
-# 📝 CLI Cheatsheet
+# Linux CLI Cheatsheet
+
+A collection of useful Linux command-line examples.
 
 ```bash
 # File and directory operations

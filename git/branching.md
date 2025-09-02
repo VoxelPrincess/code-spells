@@ -1,67 +1,63 @@
-# Branching# 🌿 Git Branching
+# 🌿 Git Branching
 
 ## 📜 What is a Git Branch?  
-A branch is a lightweight movable pointer to a commit. It allows parallel development, feature isolation, and safer collaboration.  
-Ветка — это легковесный указатель на коммит. Позволяет параллельную разработку, изоляцию фич и безопасную совместную работу.
+A branch is a lightweight movable pointer to a commit. It allows parallel development, feature isolation, and safer collaboration.
 
 ---
 
-## 🔧 Basic Commands / Основные команды
+## 🔧 Basic Commands
 
 ```bash
-# Create a new branch / Создать новую ветку
+# Create a new branch
 git branch feature/new-feature
 
-# Switch to a branch / Переключиться на ветку
+# Switch to a branch
 git checkout feature/new-feature
 
-# Create and switch / Создать и сразу переключиться
+# Create and switch
 git checkout -b feature/new-feature
 
-# List all local branches / Показать все локальные ветки
+# List all local branches
 git branch
 
-# Delete local branch / Удалить локальную ветку
+# Delete local branch
 git branch -d feature/new-feature
 
-# Merge branch into current / Слить ветку в текущую
+# Merge branch into current
 git merge feature/new-feature
 
-# Push branch to GitHub / Отправить ветку на GitHub
+# Push branch to GitHub
 git push origin feature/new-feature
 
-# Delete branch from GitHub / Удалить ветку на GitHub
+# Delete branch from GitHub
 git push origin --delete feature/new-feature
 ```
 
 ---
 
-## 🌐 Working with Branches in Teams / Работа с ветками в команде
+## 🌐 Working with Branches in Teams
 
-Using branches is a core part of collaborative development.  
-Использование веток — важная часть командной разработки.
+Using branches is a core part of collaborative development.
 
-- `main` / `master` — main stable branch / основная стабильная ветка
-- `feature/xxx` — branches for new features / ветки для новых функций
-- `bugfix/xxx` — branches for fixing bugs / ветки для исправления багов
-- `hotfix/xxx` — branches for urgent fixes / ветки для срочных исправлений
-- `experiment/xxx` — experimental branches / экспериментальные ветки
+- `main` / `master` — main stable branch
+- `feature/xxx` — branches for new features
+- `bugfix/xxx` — branches for fixing bugs
+- `hotfix/xxx` — branches for urgent fixes
+- `experiment/xxx` — experimental branches
 
-Use pull requests (PR) to merge into `main` safely.  
-Используйте pull request для безопасного слияния в `main`.
+Use pull requests (PR) to merge into `main` safely.
 
-Many teams follow [GitHub Flow](https://guides.github.com/introduction/flow/).  
-Многие команды используют GitHub Flow.
+Many teams follow [GitHub Flow](https://guides.github.com/introduction/flow/).
 
 ---
 
-## 💡 Tips / Советы
+## 💡 Tips
 
-- Always pull before creating a new branch / Всегда делай `git pull` перед созданием новой ветки  
-- Use clear names like `feature/login-form` / Используй понятные имена типа `feature/login-form`  
-- One task = one branch / Одна задача — одна ветка  
-- Remove merged branches / Удаляй слитые ветки  
-- Don't push broken code to shared branches / Не пушь нерабочий код в общие ветки  
+- Always pull before creating a new branch.
+- Use clear names like `feature/login-form`.
+- One task = one branch.
+- Remove merged branches.
+- Don't push broken code to shared branches.
 
 ---
 

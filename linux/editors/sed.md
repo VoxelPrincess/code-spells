@@ -1,4 +1,6 @@
-# 📝 Sed
+# Sed Editor
+
+Sed is a stream editor for filtering and transforming text.
 
 ## 🔹 1. Definition  
 **Sed** is a stream editor used to perform basic text transformations on an input stream (a file or input from a pipeline).

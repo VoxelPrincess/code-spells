@@ -1,6 +1,6 @@
 # 🧙‍♀️ Code Spells
 
-Сборник шпаргалок и примеров кода для обучения и повседневной разработки.
+A collection of cheatsheets and code examples for learning and daily development.
 
 ---
 

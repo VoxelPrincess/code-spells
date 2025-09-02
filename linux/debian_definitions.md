@@ -1,5 +1,6 @@
-# 📘 Debian Definitions and Core Concepts  
-### 🐧 Essential theory for installing and using Debian 12
+# Debian Definitions
+
+Definitions and explanations for Debian-based systems.
 
 ---
 

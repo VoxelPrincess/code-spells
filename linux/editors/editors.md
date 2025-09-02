@@ -1,4 +1,6 @@
-# 🖋️ Text Editors Overview
+# Overview of Linux Editors
+
+A comparison of popular text editors for Linux.
 
 ## 📚 What is a Text Editor?  
 This folder contains detailed guides for key Linux text editors, both terminal-based (CLI) and graphical (GUI). Each file includes installation, usage, and helpful shortcuts.

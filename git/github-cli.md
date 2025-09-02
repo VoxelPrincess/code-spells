@@ -1,11 +1,10 @@
-# 🖥️ GitHub CLI / Командная строка GitHub
+# 🖥️ GitHub CLI
 
-**GitHub CLI** is a command-line tool for interacting with GitHub without leaving the terminal.  
-**GitHub CLI** — это инструмент командной строки для работы с GitHub прямо из терминала.
+**GitHub CLI** is a command-line tool for interacting with GitHub without leaving the terminal.
 
 ---
 
-## 📦 Installation / Установка
+## 📦 Installation
 
 ### macOS (Homebrew)
 
@@ -32,18 +31,17 @@ sudo apt install gh
 
 ---
 
-## ✅ Authentication / Аутентификация
+## ✅ Authentication
 
 ```bash
 gh auth login
 ```
 
-Runs an interactive setup to log into your GitHub account using HTTPS or SSH.  
-Запускает интерактивную настройку входа в ваш аккаунт GitHub через HTTPS или SSH.
+Runs an interactive setup to log into your GitHub account using HTTPS or SSH.
 
 ---
 
-## 🔄 Common Commands / Основные команды
+## 🔄 Common Commands
 
 ```bash
 gh repo clone user/repo   # Clone a repo
@@ -71,14 +69,13 @@ git push
 
 ---
 
-## 💡 Bonus: Fork & Pull Request / Форк и пулл-реквест
+## 💡 Bonus: Fork & Pull Request
 
 - Use `gh repo fork` to fork a repository.
 - Use `gh pr create` to open a pull request from your fork.
 
 ---
 
-🧠 Use `gh help` to see all available commands.  
-🧠 Используйте `gh help` чтобы увидеть список всех команд.
+🧠 Use `gh help` to see all available commands.
 
 - [README](../README.md)

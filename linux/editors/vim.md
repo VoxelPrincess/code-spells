@@ -1,4 +1,6 @@
-# 📝 Vim
+# Vim Editor
+
+Vim is a powerful and highly configurable text editor for Linux.
 
 ## 🔹 1. Definition  
 **Vim** is a modal command-line text editor based on vi.  

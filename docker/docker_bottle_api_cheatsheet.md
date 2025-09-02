@@ -1,6 +1,6 @@
-# Docker + Bottle API Cheat Sheet
+# Docker + Bottle API Cheatsheet
 
-This is a step-by-step guide to building and running a Bottle-based REST API in a Docker container.
+This cheatsheet provides examples for running Bottle APIs in Docker containers.
 
 ---
 

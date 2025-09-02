@@ -1,4 +1,4 @@
-# 📝 Neovim Qt
+# Neovim-Qt
 
 ## 🔹 1. Definition  
 **Neovim Qt** is a graphical user interface (GUI) frontend for Neovim. It provides a modern and user-friendly interface for using Neovim outside of the terminal.

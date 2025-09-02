@@ -1,4 +1,6 @@
-# 📝 GNU Emacs
+# Emacs Editor
+
+Emacs is a highly extensible and customizable text editor.
 
 ## 🔹 1. Definition  
 **GNU Emacs** is a highly extensible and customizable text editor, built on Emacs Lisp. It's used for coding, writing, terminal emulation, and more.

@@ -1,4 +1,6 @@
-# 🧩 Introduction to Templates in Bottle
+# Bottle Templates Introduction
+
+Bottle templates allow you to dynamically generate HTML content.
 
 ## What is a Template?
 

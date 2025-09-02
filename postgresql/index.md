@@ -1,8 +1,8 @@
-# 💾 SQL, PostgreSQL, Node.js, Fastify & Kysely — Practical Reference Notes / Практические заметки
+# 💾 SQL, PostgreSQL, Node.js, Fastify & Kysely — Practical Reference Notes
 
 ---
 
-## 🚀 Installation / Установка
+## 🚀 Installation
 
 ### 🐧 Linux
 
@@ -61,20 +61,20 @@ npx tsc --init
 
 ---
 
-## 🧠 Key Concepts / Ключевые понятия
+## 🧠 Key Concepts
 
-- **Database (DB)** — structured storage for data / структурированное хранилище данных.
-- **SQL** — language for managing and querying databases / язык запросов к базе данных.
-- **PostgreSQL** — relational open-source database / реляционная СУБД.
-- **ORM** — maps objects to DB tables / отображает объекты на таблицы БД.
-- **Fastify** — fast web framework for Node.js / быстрый веб-фреймворк.
-- **Kysely** — type-safe SQL builder / типобезопасный генератор SQL.
-- **API** — interface for data exchange / интерфейс обмена данными.
-- **CRUD** — Create, Read, Update, Delete operations / основные действия с данными.
+- **Database (DB)** — structured storage for data.
+- **SQL** — language for managing and querying databases.
+- **PostgreSQL** — relational open-source database.
+- **ORM** — maps objects to DB tables.
+- **Fastify** — fast web framework for Node.js.
+- **Kysely** — type-safe SQL builder.
+- **API** — interface for data exchange.
+- **CRUD** — Create, Read, Update, Delete operations.
 
 ---
 
-## 🗂️ Migration Scripts / Скрипты миграции
+## 🗂️ Migration Scripts
 
 ### Example `migrations.sql`:
 
@@ -109,7 +109,7 @@ psql mydatabase < migrations.sql
 
 ---
 
-## 🛠️ Using psql CLI / Использование psql в терминале
+## 🛠️ Using psql CLI
 
 ```bash
 psql postgres           # connect as default user
@@ -122,7 +122,7 @@ psql mydatabase         # connect to specific database
 
 ---
 
-## 🔍 Common SQL Queries / Популярные SQL-запросы
+## 🔍 Common SQL Queries
 
 ```sql
 -- Select all
@@ -147,12 +147,11 @@ SELECT movie_id, AVG(score) AS average_score FROM review GROUP BY movie_id;
 
 ---
 
-## 🔄 Transactions / Транзакции
+## 🔄 Transactions
 
 ```sql
 BEGIN;
 UPDATE person SET person_name = 'Neo' WHERE id = 1;
--- COMMIT или ROLLBACK
 COMMIT;
 -- ROLLBACK; (if you want to cancel changes)
 ```
@@ -206,7 +205,7 @@ This generates `types.ts` that matches your current PostgreSQL schema.
 
 ---
 
-## ✅ Tips / Советы
+## ✅ Tips
 
 - **Always use version control**: commit your schema and seed data.
 - **Use `.env` for secrets**: never hard-code database URLs.
@@ -214,5 +213,9 @@ This generates `types.ts` that matches your current PostgreSQL schema.
 - **Use indexes**: for large queries, add `CREATE INDEX`.
 
 ---
+
+# PostgreSQL Index
+
+An index of PostgreSQL commands and concepts.
 
 - [README](../README.md)

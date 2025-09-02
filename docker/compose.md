@@ -1,11 +1,10 @@
-# Compose# 🧩 Docker Compose Basics / Основы Docker Compose
+# 🧩 Docker Compose Basics
 
-A simple guide for using Docker Compose — a tool for defining and running multi-container Docker applications.  
-Простое руководство по Docker Compose — инструменту для описания и запуска многоконтейнерных Docker-приложений.
+A simple guide for using Docker Compose — a tool for defining and running multi-container Docker applications.
 
 ---
 
-## 📄 docker-compose.yml Example / Пример docker-compose.yml
+## 📄 docker-compose.yml Example
 
 ```yaml
 version: '3.8'
@@ -38,60 +37,50 @@ volumes:
 
 ---
 
-## ⚙️ Common Commands / Часто используемые команды
+## ⚙️ Common Commands
 
 ```bash
 # Start all services in background
-# Запустить все сервисы в фоне
 docker-compose up -d
 
 # Stop all services
-# Остановить все сервисы
 docker-compose down
 
 # View logs
-# Просмотреть логи
 docker-compose logs -f
 
 # Rebuild services
-# Пересобрать сервисы
 docker-compose up --build
 
 # Stop and remove containers, networks, volumes
-# Остановить и удалить всё
 docker-compose down -v
 ```
 
 ---
 
-## 📚 Notes / Примечания
+## 📚 Notes
 
-- `services:` — defines containers / определяет контейнеры
-- `depends_on:` — specifies dependencies between services / указывает зависимости между сервисами
-- `volumes:` — named volumes for persistent data / именованные тома для постоянных данных
-- `build:` — builds an image from a Dockerfile / сборка образа из Dockerfile
-- `ports:` — host:container port mapping / отображение портов внешний:внутренний
-- `environment:` — environment variables passed to the container / переменные окружения
+- `services:` — defines containers.
+- `depends_on:` — specifies dependencies between services.
+- `volumes:` — named volumes for persistent data.
+- `build:` — builds an image from a Dockerfile.
+- `ports:` — host:container port mapping.
+- `environment:` — environment variables passed to the container.
 
 ---
 
-## 🔍 Tips / Советы
+## 🔍 Tips
 
-- Use `.env` file to store environment variables.  
-  Используйте `.env` файл для хранения переменных окружения.
-
-- Use `docker-compose.override.yml` for local development settings.  
-  Используйте `docker-compose.override.yml` для локальной настройки.
-
-- You can scale services with:  
-  Можно масштабировать сервисы:
+- Use `.env` file to store environment variables.
+- Use `docker-compose.override.yml` for local development settings.
+- You can scale services with:
   ```bash
   docker-compose up --scale backend=3
   ```
 
 ---
 
-## ✅ .env Example / Пример .env
+## ✅ .env Example
 
 ```
 POSTGRES_USER=user

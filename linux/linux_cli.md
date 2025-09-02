@@ -1,4 +1,7 @@
-# 📘 Linux CLI Topics by Theme (Definitions + Commands)
+# Linux CLI Essentials
+
+Essential commands for working with the Linux command line.
+
 ### 📅 Date: 04.04.2025
 
 ---
